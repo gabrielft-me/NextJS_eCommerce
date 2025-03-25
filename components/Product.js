@@ -20,5 +20,6 @@ export default function Product({_id,name,price,description,picture}) {
         <button onClick={addProduct} className="bg-emerald-400 text-white py-1 px-3 rounded-xl">+</button>
       </div>
     </div>
+    
   );
 }

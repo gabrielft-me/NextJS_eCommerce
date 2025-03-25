@@ -17,6 +17,7 @@ export default function Footer() {
           <span>Home</span>
         </a>
       </Link>
+      
       <Link href={'/checkout'}>
         <a className={(path === '/checkout' ? 'text-emerald-500' : '')+" flex justify-center items-center flex-col"}>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">

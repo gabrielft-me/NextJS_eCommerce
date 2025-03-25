@@ -11,6 +11,7 @@ export default function Layout({children}) {
       setSuccess(true);
     }
   }, []);
+  
   return (
     <div>
       <div className="p-5">
