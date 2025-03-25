@@ -29,6 +29,7 @@ export default function CheckoutPage() {
     }
   }
 
+  
   const deliveryPrice = 5;
   let subtotal = 0;
   if (selectedProducts?.length) {
